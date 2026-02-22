@@ -1,8 +1,8 @@
-PHP API for Customer Management
-Overview
+# PHP API for Customer Management
+**Overview** 
 This project is a simple RESTful API built using PHP and MySQL that allows for managing customer data. The operations supported include creating, reading, updating, and deleting customer records in a database. The API responds with JSON formatted messages and supports CORS for cross-origin requests.
 
-File Structure
+**File Structure**
 - dbconn.php: This file establishes a connection to the MySQL database. It sets up database credentials and initializes the connection.
 
 - function.php: This file contains various helper functions:
@@ -16,7 +16,7 @@ File Structure
 - getCustomerDetails(): Retrieves details of a specific customer.
 - api.php: This is the main entry point for the API. It processes incoming requests and routes them to the appropriate functions based on the specified action.
 
-API Endpoints
+**API Endpoints**
 1. Get Customer List
 Method: GET
 URL: http://yourdomain/api.php?action=get
@@ -137,7 +137,7 @@ json
   "message": "Customer ID not found"
 }
 
-Using Postman
+**Using Postman**
 Install Postman: Download and install Postman from the official website.
 
 Create a New Request:
@@ -158,4 +158,4 @@ Select "raw" and choose "JSON" from the dropdown.
 Input your JSON data.
 Send the Request: Click the "Send" button and review the response in the lower section of Postman.
 
-This comprehensive description provides a good overview of the API functionality and how to use Postman for testing.
+*This comprehensive description provides a good overview of the API functionality and how to use Postman for testing.*
