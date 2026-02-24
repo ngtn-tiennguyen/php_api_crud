@@ -1,4 +1,4 @@
-**Customer Management RESTful API (PHP, MySQL)**
+# Customer Management RESTful API (PHP, MySQL)
 
 - Developed a RESTful API using PHP and MySQL to manage customer data (CRUD operations).
 
